@@ -3,7 +3,7 @@ package com;
 import java.util.HashMap;
 import java.util.Map;
 
-public class P20_CountOccuranceOfCharacterInString {
+public class P05_CountOccuranceOfCharacterInString {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
