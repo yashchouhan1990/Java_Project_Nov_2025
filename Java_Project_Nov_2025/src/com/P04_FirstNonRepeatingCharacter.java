@@ -23,7 +23,7 @@ public class P04_FirstNonRepeatingCharacter {
 	
 	public static char firstNonRepeatingChar(String str) {
 		 
-		Map<Character, Integer> charCount = new LinkedHashMap<Character, Integer>();
+		Map<Character, Integer> charCount = new LinkedHashMap<Character, Integer>();   // HashMap can also be used
 		
 		// Step1: first count frequency of characters
 		
@@ -40,7 +40,17 @@ public class P04_FirstNonRepeatingCharacter {
 		
 		return 0;  // No non repeating character
 	}
-	
+/*
+ for(char c : chArray)
+		{
+			if(map.containsKey(c))
+			{
+				map.put(c, map.get(c)+1);
+			}
+		else
+				map.put(c, 1);
+		}	
+ */
 	
 	// Another approach
 	public static char firstNonRepeatingCharacter(String str) {

@@ -34,7 +34,7 @@ public class P05_CountOccuranceOfCharacterInString {
 		
 		System.out.println("*******");
 		
-		//Print the occurrence of each characters from String
+		//Print the repeated of each characters from String
 		for(Map.Entry<Character, Integer> entry1 : map.entrySet() )
 		{
 			if(entry1.getValue()>1)

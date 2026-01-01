@@ -19,7 +19,7 @@ public class P06_ReverseWordInString {
 	// 1: Approach one 
 	public static String reverseWords( String str) {
 		
-		String[] words = str.trim().split("\\s+");
+		String[] words = str.trim().split("\\s+");	//In Java, the regular expression \\s+ is used to match one or more whitespace characters.
 		
 		StringBuilder sb = new StringBuilder();
 		
